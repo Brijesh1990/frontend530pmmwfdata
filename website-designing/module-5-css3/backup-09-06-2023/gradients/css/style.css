@@ -1,0 +1,39 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    /* background: -webkit-linear-gradient(aqua,gray);
+    background: -moz-linear-gradient(aqua,gray);
+    background: linear-gradient(aqua,gray); */
+/* 
+    background: -webkit-linear-gradient(left,aqua,gray);
+    background: -moz-linear-gradient(left,aqua,gray);
+    background: linear-gradient(to right,aqua,gray); */
+
+    /* background: -webkit-linear-gradient(left,aqua,gray, green , yellow);
+    background: -moz-linear-gradient(left,aqua,gray, green , yellow);
+    background: linear-gradient(to right,aqua,gray, green , yellow); */
+
+    /* background: -webkit-linear-gradient(left,aqua 50%,gray 50%);
+    background: -moz-linear-gradient(left,aqua 50%,gray 50%);
+    background: linear-gradient(to right,aqua 50%,gray 50%); */
+
+    background: -webkit-linear-gradient(left,aqua 30%,gray 50% , green 20%);
+    background: linear-gradient(to right,aqua 30%,gray 50%, green 20%);
+
+}
+
+.box 
+{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    padding: 25px;
+    margin: auto;
+    margin-top: 5%;
+    border: transparent 20px solid;
+    -webkit-border-image: url('../images/border.jpg') round 100;
+    -moz-border-image: url('../images/border.jpg') round 100;
+    border-image: url('../images/border.jpg') round 100;
+}

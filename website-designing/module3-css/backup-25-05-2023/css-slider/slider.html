@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+      $(document).ready(function(){
+         
+        $(".slider").cycle("fade,zoom,turnLeft,turnRight,shuffle");
+
+      })
+    </script>
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="dropdown"><a href="#">About</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Our chairman Message</a></li>
+                <li><a href="#">Our history</a></li>
+                <li><a href="#">Our Locations</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Furnitures</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#" class="active">Contact Us</a></li>
+
+        </ul>
+    </div>
+
+    <section id="slide">
+      <div class="slider">
+        <img src="images/1.jpg">
+        <img src="images/2.jpg">
+        <img src="images/3.webp">
+        <img src="images/4.jpg">
+      </div>
+    </section>
+    
+</body>
+</html>
+

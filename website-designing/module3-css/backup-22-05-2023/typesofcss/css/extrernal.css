@@ -1,0 +1,23 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: aqua;
+}
+.mainpage
+{
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+
+.txt 
+{
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-size: 88px;
+}

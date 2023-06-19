@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style type="text/css">
+        /* css selector 
+        {
+            property:value;
+        } */
+
+        body 
+        {
+            background-color: aliceblue;
+        }
+
+        form 
+        {
+            width: 50%;
+            height: 120px;
+            /* background-color: white; */
+            background-image: url('images/background.gif');
+            background-size: cover;    
+            margin-left: 25%;
+            /* border-radius: 10px; */
+            border-radius: 12px 0px 12px 0px;
+        }
+        form:hover 
+        {
+            border: solid gray 5px;
+            transition: ease all 4s;
+        }
+        fieldset
+        {
+            border: solid 0px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Login Form</legend>
+            <input type="text" name="name" placeholder="Name *" required>
+            <br><br>
+            <input type="submit" value="Login">
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>

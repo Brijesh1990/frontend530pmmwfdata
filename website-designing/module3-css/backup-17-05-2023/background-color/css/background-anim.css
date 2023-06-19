@@ -1,0 +1,77 @@
+@import url('font-style.css');
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+    /* animation:infinite 2s anim; */
+    /* animation:alternate 2s anim; */
+    animation:infinite 6s anim;
+    animation-delay: 5s !important;
+}
+.section
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 45px;
+    background-color: white;
+    margin-top: 9%;
+    text-align: center;
+}
+
+/* animation From and To */
+/* @keyframes anim {
+
+    from 
+    {
+      margin: 0;
+      padding: 0;
+      background-color: royalblue;
+    }
+    to 
+    {
+
+        margin: 0;
+        padding: 0;
+        background-color: cadetblue;
+    }
+    
+} */
+
+
+
+@keyframes anim {
+
+    0% 
+    {
+      margin: 0;
+      padding: 0;
+      background-color: royalblue;
+    }
+    20% 
+    {
+
+        margin: 0;
+        padding: 0;
+        background-color: cadetblue;
+    }
+   
+    40% 
+    {
+
+        margin: 0;
+        padding: 0;
+        background-color: red;
+    }
+   
+    60% 
+    {
+
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+   
+}
+

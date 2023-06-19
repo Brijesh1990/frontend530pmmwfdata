@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background-color: aqua;
+        }
+        #slider
+        {
+            width: 100%;
+            height: 250px;
+            position: relative;
+            margin: 0;
+            padding: 20px;
+            background: url('./images/back.webp') no-repeat;
+            background-size:cover;
+   
+         
+        }
+        .box
+        {
+            width: 50%;
+            height: auto;
+            background-color: rgba(0,150,0,0.3);
+            position: absolute;
+            margin: auto;
+            padding: 25px;
+            color: black;
+            margin-top: 5%;
+            margin-left: 18%;
+    
+        }
+        #content
+        {
+            width: 100%;
+            height: 950px;
+         
+        }
+
+        .social-link 
+        {
+            width: 80px;
+            height: auto;
+            padding: 15px;
+            background-color: green;
+            margin-top: 5%;
+            position: fixed;
+            margin-top: 30%;
+        }
+        .social-link:hover 
+        {
+            width: 200px;
+            height: auto;
+            padding: 15px;
+            background-color: blueviolet;
+            transition: 4s ease all;
+
+        }
+
+        #navbar 
+        {
+            width: 100%;
+            height: auto;
+            background-color: rgba(0,155,0,0.7);
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 5;
+
+        }
+    </style>
+</head>
+<body>
+
+    <section id="navbar">
+        <ul class="navbar-link">
+
+        </ul>
+    </section>
+
+    <section id="slider">
+    <div class="box">
+        <h1>About us</h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magnam quia consectetur vitae. Cum asperiores recusandae aliquam ullam repellat voluptatum sequi pariatur ab obcaecati. Ut neque placeat iste quos quisquam.</p>
+    </div>
+
+    </section>
+
+    <section id="content">
+        <div class="social-link">
+            <b>Like Us</b>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            /* background-color: cadetblue; */
+            background: url('images/back.gif') no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .frms 
+        {
+            width: 40%;
+            height:auto;
+            padding: 25px;
+            margin-left: 30%;
+            margin-top: 5%;
+            background-color: white;
+            background: url('images/frm.gif') no-repeat;
+            background-size: cover;
+          
+        }
+        .frms:hover 
+        {
+            background-color:cadetblue;
+            border-radius: 20px;
+            box-shadow: 0px 3px 2px 2px;
+            transition: 4s ease all;
+            background: url('images/back.gif') no-repeat;
+            background-size: cover;
+        }
+
+        /* pseudo element selector */
+
+         /* pseudo element[type="value"]
+         {
+            property:value;
+         } */
+           
+         hr 
+         {
+            width: 50%;
+         }
+
+         input[type="text"],input[type="email"],input[type="password"],textarea
+         {
+            width: 300px;
+            height: auto;
+            background-color: white;
+            border: none;
+            border-bottom: solid 2px black;
+            padding: 8px;
+         }
+
+         input[type="submit"]
+         {
+            width: 160px;
+            height: auto;
+            padding: 8px;
+            background-color: blue;
+            color: white;
+            border: none;
+         }
+
+         input[type="submit"]:hover
+         {
+            width: 160px;
+            height: auto;
+            padding: 8px;
+            background-color: green;
+            color: black;
+            border: none;
+            transition: 2s ease all;
+         }
+
+         
+         input[type="reset"]
+         {
+            width: 160px;
+            height: auto;
+            padding: 8px;
+            background-color: red;
+            color: white;
+            border: none;
+            margin-left: 3%;
+         }
+
+         input[type="reset"]:hover
+         {
+            width: 160px;
+            height: auto;
+            padding: 8px;
+            background-color: orange;
+            color: black;
+            border: none;
+            transition: 2s ease all;
+         }
+
+         .navbar
+         {
+            width: 100%;
+            height: auto;
+            background-color: black;
+            padding: 5px;
+            position: sticky;
+            top: 0;
+         }
+         .navbar ul li 
+         {
+            display: inline-block;
+            padding: 5px 20px;
+         }
+         .navbar a 
+         {
+            color: white;
+            text-decoration: none;
+            list-style-type: none;
+            font-size: 18px;
+         }
+         /* pseudo class selector 
+         
+         a:link 
+         {}
+         a:hover
+         {}
+         a:visited
+         {}
+         a:active
+         {} 
+         */
+      
+         .navbar a:hover
+         {
+            color: red;
+            /* text-decoration: underline; */
+            border: solid 2px white;
+            padding: 5px;
+            border-radius: 5px;
+            transition: 0.5s ease all;
+         }
+         /* .navbar a:visited
+         {
+           color: green;
+         } */
+         .navbar a:active
+         {
+          color: red;
+         }
+         .navbar a:link
+         {
+         color: white;
+         }
+         
+    .our-services
+    {
+        width: 40%;
+        height: auto;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .our-services h2 
+    {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .hr 
+    {
+        width: 200px;
+        height: 200px;
+        background-color: gray;
+        border-radius: 50%;
+        margin: 8px;
+        padding: 5px;
+        float: left;
+
+    }
+    </style>
+</head>
+<body>
+     
+    <div class="nav navbar">
+    <ul>
+        <li><a href="pseudo_class_selector.html">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Our Services</a></li>
+        <li><a href="">Our Gallery</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Account</a></li>
+        <li><a href="">Contact</a></li>
+        
+    </ul>  
+    </div>
+
+
+    <div class="frms">
+    <h2>Register Form</h2>
+    <hr align="left">
+    <form id="frm" name="frm" method="post" action="welcome.html">
+      <input type="text" name="name" placeholder="Enter your Name *" required>
+      <br><br>  
+
+      <input type="email" name="email" placeholder="Enter your Name *" required>
+      <br><br>  
+
+      <input type="password" name="password" placeholder="Enter your password *" required>
+      <br><br>  
+
+      Male <input type="radio" name="gender" value="male">
+      Female <input type="radio" name="gender" value="female">
+      Other <input type="radio" name="gender" value="other">
+      <br><br>  
+
+      Reading :<input type="checkbox" name="hobby" value="reading">
+      Playing :<input type="checkbox" name="hobby" value="playing">
+      Surfing :<input type="checkbox" name="hobby" value="surfing">
+      Ridding :<input type="checkbox" name="hobby" value="ridding">
+      Foody :<input type="checkbox" name="hobby" value="foody">
+      <br><br>
+      <textarea name="address" placeholder="Enter your address" rows="" cols=""></textarea>
+    
+      <br><br>
+      <input type="submit" name="register" value="Register">
+      <input type="reset" name="reset" value="Reset">
+    </form>
+
+    </div>
+
+
+    <div class="our-services">
+        <h2>Our services</h2>
+        <hr>
+
+        <div class="hr"></div>
+        
+        <div class="hr"></div>
+        
+        <div class="hr"></div>
+        
+        <div class="hr"></div>
+
+    </div>
+
+    
+</body>
+</html>

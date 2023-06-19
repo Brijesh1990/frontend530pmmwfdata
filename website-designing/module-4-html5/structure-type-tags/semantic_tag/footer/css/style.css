@@ -1,0 +1,138 @@
+body 
+{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#header 
+{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: lightcoral;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.logo 
+{
+width: 30%;
+height: auto;
+margin-left: 15%;
+font-size: 20px;
+}
+.call-info 
+{
+
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.social-media
+{
+
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+#navbar 
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 1px;
+
+}
+.nav-link li 
+{   
+    padding: 0px 45px;
+    display: inline-block;
+    top: 0;
+    margin-top: 0;   
+}
+.nav-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.dropdown
+{
+    position: relative;
+}
+.dropdown-menu
+{
+    display: none;
+    background-color: black;
+}
+.dropdown:hover .dropdown-menu
+{
+display: block;
+position: absolute;
+}
+
+#electronics,#kids,#mens,#womens,#offers,#grocessory
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 50px 50px;
+    background-color: white;
+    margin-top: 5%;
+}
+
+.fa-arrow-circle-o-up
+{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: white;
+    background-color: coral;
+    float: right;
+    border-radius: 50%;
+    margin-right: 1%;
+    margin-top: -6%;
+    font-size: 30px !important;
+}
+
+#footer 
+{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.info 
+{
+width: 100%;
+height: auto;
+padding: 25px;
+border: solid 0px red;
+}
+.info-link 
+{
+
+    width: 80%;
+    height: auto;
+    margin-left: 15%;
+    padding: 25px;
+    border: solid 0px red;
+}
+.subscribe
+{
+
+    width: 80%;
+    height: auto;
+    border: solid 0px red;
+    margin-left: 10%;
+    padding: 25px;
+}

@@ -1,0 +1,76 @@
+body 
+{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#header 
+{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: lightcoral;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.logo 
+{
+width: 30%;
+height: auto;
+margin-left: 15%;
+font-size: 20px;
+}
+.call-info 
+{
+
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.social-media
+{
+
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+#navbar 
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 1px;
+
+}
+.nav-link li 
+{   
+    padding: 0px 45px;
+    display: inline-block;
+    top: 0;
+    margin-top: 0;   
+}
+.nav-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.dropdown
+{
+    position: relative;
+}
+.dropdown-menu
+{
+    display: none;
+    background-color: black;
+}
+.dropdown:hover .dropdown-menu
+{
+display: block;
+position: absolute;
+}

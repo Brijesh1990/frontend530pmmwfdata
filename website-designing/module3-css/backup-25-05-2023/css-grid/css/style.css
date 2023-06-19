@@ -1,0 +1,135 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+.navbar
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: black;
+}
+.navbar ul li 
+{
+    /* display: inline-block; */
+    display: inline;
+    padding: 5px 8px;
+}
+
+.navbar a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
+.navbar a:hover
+{
+    text-decoration: underline;
+    color: red;
+    content: "";
+}
+.navbar a::after 
+{
+    content: "|";
+    padding: 22px 25px;
+}
+
+.active::after
+{ 
+    content: "";
+    display: none !important;    
+}
+
+.content h1 
+{
+    text-align: center;
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.add-txt::before 
+{
+    content: "Pandey Ravindra";
+} 
+
+/* .box1
+{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 2%;
+    display: inline-block;
+}
+.box2
+{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 2%;
+    display: inline-block;
+}
+.box3
+{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 2%;
+    display: inline-block;
+}
+.box4
+{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 2%;
+    display: inline-block;
+}
+.box5
+{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 2%;
+    display: inline-block;
+} */
+
+#box 
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+ 
+}
+.box1,.box2
+{
+    width: 550px;
+    height: 200px;
+    background-color: black;
+    margin: 5%;
+    
+    
+ 
+}
+.box3,.box4
+{
+    width: 550px;
+    height: 200px;
+    background-color: blue;
+    margin: 5%;
+ 
+}
+
+.box5
+{
+    width: 550px;
+    height: 200px;
+    background-color: red;
+    margin: 5%;
+ 
+}

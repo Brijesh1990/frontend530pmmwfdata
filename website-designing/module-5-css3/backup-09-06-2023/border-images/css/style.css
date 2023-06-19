@@ -1,0 +1,20 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.box 
+{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    padding: 25px;
+    margin: auto;
+    margin-top: 5%;
+    border: transparent 20px solid;
+    -webkit-border-image: url('../images/border.jpg') round 100;
+    -moz-border-image: url('../images/border.jpg') round 100;
+    border-image: url('../images/border.jpg') round 100;
+}

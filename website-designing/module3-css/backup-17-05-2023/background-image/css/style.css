@@ -1,0 +1,75 @@
+body 
+{
+    width: 100%;
+    height: 657px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background: url('../images/1.avif') no-repeat;
+    background-size: 100% 657px;
+    background-attachment: fixed;
+    animation: 5s infinite anim_check;
+    animation-delay: 3s;
+}
+
+.section 
+{
+    width: 30%;
+    height: 250px;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 8%;
+    padding: 65px;
+  
+}
+@keyframes anim_check {
+    
+
+0%
+{
+
+width: 100%;
+height: 657px;
+margin: 0;
+padding: 0;
+background: url('../images/2.jpg') no-repeat;
+background-size: 100% 657px;
+background-attachment: fixed;
+}
+20%
+{
+
+    width: 100%;
+    height: 657px;
+    margin: 0;
+    padding: 0;
+    background: url('../images/3.jpg') no-repeat;
+    background-size: 100% 657px;
+    background-attachment: fixed;
+    
+}
+40%
+{
+
+    width: 100%;
+    height: 657px;
+    margin: 0;
+    padding: 0;
+    background: url('../images/4.png') no-repeat;
+    background-size: 100% 657px;
+    background-attachment: fixed;
+    
+}
+60%
+{
+    width: 100%;
+    height: 657px;
+    margin: 0;
+    padding: 0;
+    background: url('../images/2.jpg') no-repeat;
+    background-size: 100% 657px;
+    background-attachment: fixed;
+}
+
+}
