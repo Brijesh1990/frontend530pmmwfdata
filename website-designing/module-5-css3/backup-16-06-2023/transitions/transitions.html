@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+        #header 
+        {
+            width: 100%;
+            height: 125px;
+            display: flex;
+            flex-direction: row;
+            background-color: cadetblue;
+            position: relative;
+        }
+        .logo 
+        {
+            font-size: 25px;
+            letter-spacing: 2px;
+        }
+        .logo h3 
+        {
+           margin-left: 5%;
+           font-size: 40px;
+           -webkit-transition:ease all 2s;
+           -moz-transition:ease all 2s;
+           transition:ease all 2s;   
+              position: absolute;
+         }
+
+           .logo h3:hover 
+        {
+           margin-left: 5%;
+           font-size: 45px;
+        
+         
+         }
+    </style>
+</head>
+<body>
+    <section id="header">
+        <div class="logo">
+            <h3>Flipkart</h3>
+        </div>
+        <div class="search"></div>
+        <div class="social"></div>
+    </section>
+</body>
+</html>

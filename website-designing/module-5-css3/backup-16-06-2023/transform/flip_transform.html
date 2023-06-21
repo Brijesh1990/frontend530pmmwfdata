@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script src='main.js'></script>
+<style>
+.box
+{
+width: 320px;
+height: 300px;
+margin-left: 20%;
+margin-top: 8%;
+}
+.inner-box
+{
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+padding: 15px;
+transition: transform 0.8s;
+transform-style: preserve-3d;
+}
+.box:hover .inner-box 
+{
+transform: rotateY(180deg);
+}
+
+.inner-box-img,.box-text 
+{
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+.inner-box-img
+{
+width: 100%;
+height: 100%;
+background-color: aliceblue;
+color: black;
+}
+.box-text
+{
+background-color: black;
+color: white;
+transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+<div class="inner-box">
+
+<div class="inner-box-img">
+<img src="images/photo.jpg" style="width: 320px; height: 300px;">
+</div>
+
+<div class="box-text">
+<p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error alias voluptatum odio rem, iusto et dolorum molestiae totam quidem architecto voluptatem corrupti hic sed reprehenderit cupiditate quo cumque. Eveniet, saepe?</p>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
