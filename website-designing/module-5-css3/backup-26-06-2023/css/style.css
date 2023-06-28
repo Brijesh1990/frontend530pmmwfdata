@@ -1,0 +1,337 @@
+/* media query : media query is used to make responsive website
+                 responsive is called device friendly provides website  
+                 using media query we nake any website responsive 
+                 media query is a part of css3
+
+  types of media query : 
+                      
+a)all	             Used for all media type devices
+b)print	             Used for printers
+c)screen	         Used for computer screens, tablets, smart-phones etc.
+d)speech	         Used for screenreaders that "reads" the page out loud
+
+diffrent-2 resulations or screen size 
+
+a) mobile 
+      min-width:320px and max-width:480px
+
+
+b) tablet
+      min-width:481px and max-width:768px
+
+
+c) laptop- small desktop 
+      min-width:769px and max-width:1024px
+
+
+d) large device 
+      min-width:1025px and max-width:1201px
+
+*/
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#header-app
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.logo
+{
+    margin: 0;
+    font-size: 35px;
+    margin-left: 0;
+    padding: 0;
+    font-weight: 700 !important;
+}
+.search 
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.search input
+{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    margin-left: 20%;    
+}
+.social-media
+{
+ width: 20%;   
+font-size: 30px;
+}
+
+#banner-app
+{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background: url('https://ein-des-ein.com/wp-content/uploads/2021/08/eCommerce--1024x536.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-text
+{
+width: 70%;
+height: auto;
+margin: auto;
+font-size: 20px;
+padding: 25px;
+color: white;
+}
+@media screen and (max-width:480px){
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#header-app
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.logo 
+{
+    margin: 0;
+    font-size: 20px;
+    margin-left: 0;
+    padding: 0;
+    font-weight: 700 !important;
+}
+.search 
+{
+    width: 60%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.search input
+{
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    margin-left: 8%;    
+}
+.social-media
+{
+ width: 28%;   
+font-size: 20px;
+}
+
+#banner-app
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background: url('https://ein-des-ein.com/wp-content/uploads/2021/08/eCommerce--1024x536.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-text
+{
+width: 70%;
+height: auto;
+margin: auto;
+font-size: 20px;
+padding:2px;
+color: white;
+}
+
+}
+@media screen and (max-width:768px){
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        background-color: cadetblue;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    #header-app
+    {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .logo 
+    {
+        margin: 0;
+        font-size: 20px;
+        margin-left: 0;
+        padding: 0;
+        font-weight: 700 !important;
+    }
+    .search 
+    {
+        width: 60%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .search input
+    {
+        width: 80%;
+        height: auto;
+        padding: 5px;
+        margin-left: 8%;    
+    }
+    .social-media
+    {
+     width: 28%;   
+    font-size: 20px;
+    }
+
+    #banner-app
+    {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        background: url('https://ein-des-ein.com/wp-content/uploads/2021/08/eCommerce--1024x536.png') no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .banner-text
+    {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    font-size: 20px;
+    padding:2px;
+    color: white;
+    }
+    
+
+}
+
+@media screen and (max-width:1024px){
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        background-color: cadetblue;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    #header-app
+    {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .logo 
+    {
+        margin: 0;
+        font-size: 20px;
+        margin-left: 0;
+        padding: 0;
+        font-weight: 700 !important;
+    }
+    .search 
+    {
+        width: 60%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .search input
+    {
+        width: 80%;
+        height: auto;
+        padding: 5px;
+        margin-left: 8%;    
+    }
+    .social-media
+    {
+     width: 28%;   
+    font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:1201px){
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        background-color: cadetblue;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    #header-app
+    {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .logo 
+    {
+        margin: 0;
+        font-size: 20px;
+        margin-left: 0;
+        padding: 0;
+        font-weight: 700 !important;
+    }
+    .search 
+    {
+        width: 60%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .search input
+    {
+        width: 80%;
+        height: auto;
+        padding: 5px;
+        margin-left: 8%;    
+    }
+    .social-media
+    {
+     width: 28%;   
+    font-size: 20px;
+    }
+}
