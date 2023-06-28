@@ -1,0 +1,77 @@
+@media screen and (max-width:480px){
+#poojara-header
+{
+display: flex;
+flex-direction: column;
+justify-content: left !important;
+align-items: center;
+
+}
+.account-detail
+{
+    width: 50%;
+    height: auto;
+}
+.currency-language
+{
+    width: 50%;
+    height: auto;
+}
+.account-detail-link li
+{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 2px 2px;
+    font-size: 15px;
+    letter-spacing: 0;
+    
+}
+.currency-language-link li 
+{
+    display:block !important;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 2px 2px;
+    font-size: 15px;
+    
+}
+#poojara-bottom-header
+{
+    width: 90%;
+    height: auto;
+    margin: 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.cart-badge
+{
+width: 48%;
+height: auto;
+padding: 15px;
+position: relative;
+}
+#crt-btn
+{
+width: 100%;
+height: auto;
+padding: 15px;
+font-size: 17px;
+letter-spacing: 2px;
+border: solid 1px lightgray;
+background-color: white;
+}
+.fa-circle 
+{
+    position: absolute;
+    color: blue;
+    font-size: 25px !important;
+    padding: 8px !important;
+    margin-top: -16%;
+    margin-left: 5%;
+}
+    
+}
