@@ -1,0 +1,11 @@
+what is conditional statements ?
+        conditional statements are checked true and false there we used conditions.
+
+         types of conditional statements ?
+           a) if 
+           b) if -else 
+           c) if elseif 
+           d) nested if 
+           e) switch
+           
+            

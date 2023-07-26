@@ -1,0 +1,292 @@
+/* @media only screen  and (min-width:320px) and (max-width:480px)
+{
+
+} */
+
+@media screen and (max-width:480px){
+#poojara-header
+{
+display: flex;
+flex-direction: column;
+justify-content: left !important;
+align-items: center;
+
+}
+.account-detail
+{
+    width: 50%;
+    height: auto;
+}
+.currency-language
+{
+    width: 50%;
+    height: auto;
+}
+.account-detail-link li
+{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 2px 2px;
+    font-size: 15px;
+    letter-spacing: 0;
+    
+}
+.currency-language-link li 
+{
+    display:block !important;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 2px 2px;
+    font-size: 15px;
+    
+}
+#poojara-bottom-header
+{
+   
+    margin: 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.cart-badge
+{
+width: 48%;
+height: auto;
+padding: 15px;
+position: relative;
+}
+#crt-btn
+{
+width: 100%;
+height: auto;
+padding: 15px;
+font-size: 17px;
+letter-spacing: 2px;
+border: solid 1px lightgray;
+background-color: white;
+}
+.fa-circle 
+{
+    position: absolute;
+    color: blue;
+    font-size: 25px !important;
+    padding: 8px !important;
+    margin-top: -16%;
+    margin-left: 5%;
+}
+.nav 
+{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+}
+.mobile-view button 
+{
+    display: block;
+}
+.fa-th-large
+{
+    font-size: 30px !important;
+}
+.collapse 
+{
+    display: none;
+}
+.navbar-link li 
+{
+    padding: 5px 25px;
+    display: block;
+}
+.navbar-link a 
+{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#slider img 
+{
+    width: 100%;
+    height: 200px !important;
+}
+
+
+.myaccount
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+}
+
+.login-text
+{
+    width: 100% !important;
+    height: 300px;
+}
+.login-text img
+{
+    width: 100% !important;
+    height: 300px;
+}
+
+
+.login-page h1 
+{
+    font-size: 25px !important;
+    letter-spacing: 2px;
+}
+.login-page hr 
+{
+    width: 20%;
+}
+
+input[type="email"]
+{
+    width: 350px !important;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+button[type="button"]
+{
+    width: 150px !important;
+    height: auto;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0;
+    margin-left: 20%;
+    
+}
+.our-services
+{
+    width: 100% !important;
+    height: auto !important;
+    margin: 0;
+    padding: 20px;
+    background-color: #fbfbfb;
+}
+.our-services img 
+{
+    width: 90% !important;
+    height: 125px;
+}
+.product-list
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    grid-gap: 10px !important;
+    
+}
+.btn-click
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+}
+.btn-click button
+{
+background-color: red;
+color: white;
+border: none;
+padding: 5px;
+}
+
+#footer
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    background-color: black;
+    display: flex !important;
+    flex-direction: column !important;
+
+}
+.about-us 
+{
+    width: 80%;
+    height: auto;
+    padding: 5px !important;
+    color: white;
+}
+
+.footer-links 
+{
+    width: 80% !important;
+    height: auto !important;
+    padding: 5px !important;
+    color: white; 
+}
+.footer-links ul li
+{
+    display: block !important;
+    text-decoration: none !important;
+}
+.footer-links a 
+{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.newsletter
+{
+    width: 80% !important;
+    height: auto;
+    padding: 5px;
+    color: white; 
+
+}
+.newsletter input 
+{
+    width: 90% !important;
+    height: auto;
+    padding: 5px;
+}
+
+
+/* loader stylesheet applied here */
+
+#mainwebsite
+{
+    display: none;
+}
+#loader 
+{
+    width: 500px !important;
+    height: 450px !important;
+    background: url('../img/loader2.gif') no-repeat;
+    background-size:500px 450px !important;
+    transform: scaleX(-1);
+    margin-left: 1%;
+    margin-top: 8%;
+}
+#loader1 
+{
+    width: 500px !important;
+    height: 250px !important;
+    background: url('../img/spinner.gif') no-repeat;
+    background-size:500px 250px !important;
+    transform: scaleX(-1);
+    margin-left: 1%;
+    margin-top: 8%;
+}
+    
+}

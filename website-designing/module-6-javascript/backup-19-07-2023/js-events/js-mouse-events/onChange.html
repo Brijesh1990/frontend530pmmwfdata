@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function chng()
+        {
+
+            var p=document.getElementById("price").value;
+            var q=document.getElementById("qty").value;
+            var t=p*q;
+            document.getElementById("tot").innerHTML=t; 
+        }
+    </script>
+</head>
+<body>
+    
+    <table align="center" border="1">
+        <tr>
+            <th>#</th>
+            <th>photo</th>
+            <th>pname</th>
+            <th>qty</th>
+            <th>price</th>
+            <th>Action</th>
+        </tr>
+
+        <tr>
+        <td>1001</td>    
+        <td><img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/6995113/2018/8/14/491e41a2-77ba-4bf5-86af-aeb8f67d63be1534240854106-Woodland-Men-Casual-Shoes-3381534240853938-1.jpg" style="width:100px; height: 100px;" /></td>
+        <td>woodland shoes</td>
+        <td><input type="number" name="qty" id="qty" value="1" min="1" max="10" onchange="chng()"></td>
+        <td>Rs.<input type="text" id="price" value="4500" style="border: none; width:65px" readonly></td>
+       
+        <td><a href="#">delete</a></td>
+        
+                
+            </tr>
+
+            <tr>
+               <td align="right" colspan="7"><h1 align="right"><label id="tot">Rs.4500</label></h1></td>
+            </tr>
+    </table>
+    
+</body>
+</html>

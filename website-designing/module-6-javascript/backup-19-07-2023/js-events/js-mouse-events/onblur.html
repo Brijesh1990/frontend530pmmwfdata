@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function test()
+        {
+            var nm=document.getElementById("name");
+            nm.value=nm.value.toUpperCase();
+
+            var em=document.getElementById("email");
+            em.value=em.value.toUpperCase();
+
+            var fnm=document.getElementById("fname");
+            fnm.value=fnm.value.toUpperCase();
+
+            var lnm=document.getElementById("lname");
+            lnm.value=lnm.value.toUpperCase();
+
+            
+            var add=document.getElementById("address");
+            add.value=add.value.toUpperCase();
+        }
+    </script>
+</head>
+<body>
+
+    <center>
+    <h3>Please fill all letter in uppercase *</h3>
+    <form method="post">
+    <input type="text" name="name" id="name" placeholder="Name *" required onblur="test()">
+    <br><br>
+    <input type="text" name="name" id="email" placeholder="Email *" required onblur="test()">
+    <br><br>
+    <input type="text" name="fname" id="fname" placeholder="Firstname *" required onblur="test()">
+    <br><br>
+    <input type="text" name="lname" id="lname" placeholder="Lastname *" required onblur="test()">
+    <br><br>
+    <textarea name="address" id="address" placeholder="Address *" required onblur="test()"></textarea>
+    <br><br>
+    <input type="submit" name="sub" value="Submit" >
+    </form>
+
+    </center>
+</body>
+</html>

@@ -1,0 +1,368 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#poojara-header
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 2px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.account-detail
+{
+    width: 70%;
+    height: auto;
+}
+.account-detail-link li
+{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 2px 15px;
+}
+.account-detail-link a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+.currency-language
+{
+    width: 30%;
+    height: auto;
+}
+.currency-language-link li 
+{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 2px 15px
+}
+.currency-language-link a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+#poojara-bottom-header
+{
+    width: 80%;
+    height: auto;
+    margin: 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.logo
+{
+    width: auto;
+    height: auto;
+}
+.cart-badge
+{
+width: 20%;
+height: auto;
+padding: 15px;
+position: relative;
+}
+#crt-btn
+{
+width: 100%;
+height: auto;
+padding: 15px;
+font-size: 17px;
+letter-spacing: 2px;
+border: solid 1px lightgray;
+background-color: white;
+}
+.fa-circle 
+{
+    position: absolute;
+    color: blue;
+    font-size: 25px !important;
+    padding: 8px !important;
+    margin-top: -14%;
+    margin-left: 9%;
+}
+#navbar
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 5px;
+    background-color: #fbfbfb;
+}
+.mobile-view button 
+{
+    display: none;
+}
+.nav 
+{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar-link li 
+{
+    padding: 5px 25px;
+    display: inline-block;
+}
+.navbar-link a 
+{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+.active 
+{
+    background-color: #5a88ca;
+    padding: 25px 10px;
+    color: white !important;
+}
+
+#content 
+{
+    width: 100%;
+    height: auto;
+
+}
+.myaccount
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.login-text 
+{
+    width: 40%;
+    height: auto;
+}
+.login-page
+{
+    width: 60%;
+    height: auto;
+}
+.login-text img 
+{
+    width: 100%;
+    height: 450px;
+}
+.login-page h1 
+{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.login-page hr 
+{
+    width: 20%;
+}
+
+input[type="email"]
+{
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+button[type="button"]
+{
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0;
+    margin-left: 20%;
+    
+}
+.our-services
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    background-color: #fbfbfb;
+}
+.our-services img 
+{
+    margin: 15px;
+    margin-left: 3%;
+}
+
+.product-list
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    
+}
+.btn-click
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+}
+.btn-click button
+{
+background-color: red;
+color: white;
+border: none;
+padding: 5px;
+}
+#content h1 
+{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 100;
+    color: #4c4c4c;
+}
+.product-list-grid
+{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px !important;
+    margin-left: 5%;
+    
+}
+.product-list-grid img
+{
+    width: 80%;
+    height: 300px;
+    margin-left: 2%;
+    padding: 15px;
+    border: outset 1px #dddddd;
+
+}
+.product-list-txt
+{
+    text-align: center;
+    letter-spacing: 2px;
+    border: 0px #dddddd !important;
+    color: #4c4c4c;
+}
+.our-brands
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-left: 10%;
+}
+.our-brands img 
+{
+    width: 23%;
+}
+#footer
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.about-us 
+{
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    color: white;
+}
+
+.footer-links 
+{
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    color: white; 
+}
+.footer-links ul li
+{
+    display: block;
+    text-decoration: none;
+}
+.footer-links a 
+{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.newsletter
+{
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    color: white; 
+
+}
+.newsletter input 
+{
+    width: 60%;
+    height: auto;
+    padding: 5px;
+}
+.bottom-footer
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+
+/* loader stylesheet applied here */
+
+#mainwebsite
+{
+    display: none;
+}
+#loader 
+{
+    width: 600px;
+    height: 350px;
+    background: url('../img/loader2.gif') no-repeat;
+    background-size:600px 350px;
+    transform: scaleX(-1);
+    margin-left: 28%;
+    margin-top: 8%;
+}
+#loader1 
+{
+    width: 600px;
+    height: 350px;
+    background: url('../img/spinner.gif') no-repeat;
+    background-size:600px 350px;
+    transform: scaleX(-1);
+    margin-left: 28%;
+    margin-top: 8%;
+}
