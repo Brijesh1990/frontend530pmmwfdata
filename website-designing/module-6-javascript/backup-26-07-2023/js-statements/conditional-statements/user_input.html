@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        // odd or even number modulas by 2 and reminder is zero so number is even otherwise number is odd
+       
+        function test()
+        {
+       
+        var number=document.getElementById("number").value;
+        if(number%2==0)
+        {
+            // document.write("<h3>Number is Even</h3>");
+            document.getElementById("result").innerHTML="The number is Even";
+        }
+        else
+        {
+            // document.write("<h3>Number is Odd</h3>");
+            document.getElementById("result").innerHTML="The number is Odd";
+
+        }
+        
+
+    }
+    </script>
+
+<center>
+    <p id="result"></p>
+    <input type="text" id="number" placeholder="Enter a Number" required>
+    <br><br>
+    <button type="button" onclick="test()">Check >></button>
+    
+</center>
+
+</body>
+</html>

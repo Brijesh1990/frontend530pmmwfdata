@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function test()
+        {
+            var n1=document.getElementById("number1").value;
+            var n2=document.getElementById("number2").value;
+            var n3=document.getElementById("number3").value;
+
+            if(n1>n2 && n1>n3)
+            {
+                document.getElementById("result").innerHTML="N1 is max number";
+            }
+            else if(n2>n1 && n2>n3)
+
+            {
+                
+                document.getElementById("result").innerHTML="N2 is max number";
+            
+            }
+            else if(n3>n2 && n3>n1)
+            {
+                
+                document.getElementById("result").innerHTML="N3 is max number";
+            
+            }
+            else 
+            {
+                
+                document.getElementById("result").innerHTML="Somthing is wrong try again";
+            
+            }
+        }
+    </script>
+</head>
+<body>
+    
+<center>
+    <p id="result"></p>
+    <input type="text" id="number1" placeholder="Enter N1 Number" required>
+    <br><br>
+    <input type="text" id="number2" placeholder="Enter N2 Number" required>
+    <br><br>
+    <input type="text" id="number3" placeholder="Enter N3 Number" required>
+    <br><br>
+    <button type="button" onclick="test()">Check >></button>
+    
+</center>
+    
+</body>
+</html>
