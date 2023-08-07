@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+</head>
+<body>
+    <form>
+        Enter DOB :<select name="day">
+            <script>
+                for(d=1;d<=31;d++)
+                {
+                 document.write("<option>"+d+"</option>");
+                }
+            </script>
+        </select>
+
+        <select name="month">
+            <script>
+                for(d=1;d<=12;d++)
+                {
+                 document.write("<option>"+d+"</option>");
+                }
+            </script>
+        </select>
+
+        <select name="year">
+            <script>
+                for(d=1970;d<=2023;d++)
+                {
+                 document.write("<option>"+d+"</option>");
+                }
+            </script>
+        </select>
+    </form>
+</body>
+</html>

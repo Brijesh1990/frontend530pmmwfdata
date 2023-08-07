@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function ad()
+        {
+            var a=parseInt(prompt('Enter a values :'));
+            var b=parseInt(prompt('Enter b values :'));
+            var c=a+b;
+            document.getElementById("demo").innerHTML="Additions of numbers is :"+c;
+
+        }
+        function subs()
+        {
+            var a=parseInt(prompt('Enter a values :'));
+            var b=parseInt(prompt('Enter b values :'));
+            var c=a-b;
+            document.getElementById("demo").innerHTML="Substractions of numbers is :"+c;
+
+        }
+        function mult()
+        {
+            var a=parseInt(prompt('Enter a values :'));
+            var b=parseInt(prompt('Enter b values :'));
+            var c=a*b;
+            document.getElementById("demo").innerHTML="Multiplications of numbers is :"+c;
+
+        }
+
+        function dv()
+        {
+            var a=parseInt(prompt('Enter a values :'));
+            var b=parseInt(prompt('Enter b values :'));
+            var c=a/b;
+        
+
+        }
+
+
+    </script>
+    <style>
+        #btn1,#btn2,#btn3,#btn4
+        {
+           width: 220px;
+           height: auto;
+           background-color: red;
+           color: white;
+           border: none;
+           padding: 10px;
+           font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculators</h1>
+        <p id="demo"></p>
+        <button type="button" id="btn1" onclick="ad()">Additions</button>
+        <button type="button" id="btn2" onclick="subs()">Substractions</button>
+        <button type="button" id="btn3" onclick="mult()">Multiplications</button>
+        <button type="button" id="btn4" onclick="dv()">Divisions</button>
+    </div>
+    
+    
+</body>
+</html>

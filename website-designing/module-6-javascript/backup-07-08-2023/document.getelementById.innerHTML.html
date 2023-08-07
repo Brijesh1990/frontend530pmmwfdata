@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <table id="tab" align="center">
+        <thead>
+            <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Photo</th>
+            <th>Qty</th>
+            <th>Price</th>
+            <th>Action</th>
+            </tr>
+        </thead>
+
+            <tbody>
+                <tr align="center">
+                    <td align="center">1001</td>
+                    <td align="center">Samsung Guru</td>
+                    <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHXNc6f6o2T2L8rsP8yiunqfTj2KnfVpJkd5PMyW687dxrwfcPk3bWAAIGF954kklQY1A&usqp=CAU" width="100px" height="100px"></td>
+                    <td align="center"><input type="number" id="qty" value="1" min="1" max="10" onchange="subtot()"></td>
+                    <td align="center"><input type="text" id="price" value="1150" readonly style="border: none;"></td>
+                    <td>1001</td>
+                </tr>
+
+                <tr>
+                    <td colspan="6" align="right">
+                        <h1 style="background-color: black; text-align: right; width:50%; color:white; padding: 8px;">subtotals of Rs. <label id="tot">1150</label></h1>
+                    </td>
+                </tr>
+            </tbody>    
+    </table>
+    <!-- cart total -->
+    <script>
+    function subtot()
+    {
+        var p=document.getElementById("price").value;
+        var q=document.getElementById("qty").value;
+        var t=p*q;
+        document.getElementById("tot").innerHTML=+t;
+    }    
+    </script>
+</body>
+</html>
