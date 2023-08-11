@@ -1,0 +1,49 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+#upper {
+    width: 80%;
+    height: 20%;
+    /* background-color: white; */
+}
+
+.btn {
+    width: 80%;
+    height: 80%;
+    margin-top: 13%;
+}
+
+input{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    background-color: gray;
+    border: none;
+    color: white !important;
+    font-size: 25px;
+}
+
+::placeholder {
+    font-size: 25px;
+    color: white;
+}
+
+table{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    margin: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+table button {
+    padding: 20px 40px;
+    font-size: 20px;
+    width: 250px;
+}

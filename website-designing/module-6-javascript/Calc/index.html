@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='calc.js'></script>
+ </head>
+ <body>
+    <div id="upper">
+
+    </div>
+
+    <div class="btn">
+        <table>
+            <tr>
+                <input type="text" placeholder="0" style="text-align: right;" id="result">
+            </tr>
+            <tr>
+                <th><button>%</button></th>
+                <th><button>CE</button></th>
+                <th><button type="button" onclick="clr()">C</button></th>
+                <th><button>x</button></th>
+            </tr>
+
+            <tr>
+                <th><Button>1/x</Button></th>
+                <th><Button>x<sup>2</sup></Button></th>
+                <th><Button><sup>2</sup>&#8730;x</Button></th>
+                <th><Button>/</Button></th>
+            </tr>
+            
+            <tr>
+                <th><Button type="submit" id="btn" value="7"  onclick="return display(this.value)">7</Button></th>
+                <th><Button type="button" value="8"  onclick="return display(this.value)">8</Button></th>
+                <th><Button type="button" value="9"  onclick="return display(this.value)">9</Button></th>
+                <th><Button type="button" value="*"  onclick="return display(this.value)">*</Button></th>
+            </tr>
+            
+            <tr>
+                <th><Button type="button" value="4"  onclick="return display(this.value)">4</Button></th>
+                <th><Button type="button" value="5"  onclick="return display(this.value)">5</Button></th>
+                <th><Button type="button" value="6"  onclick="return display(this.value)">6</Button></th>
+                <th><Button type="button" value="-"  onclick="return display(this.value)">-</Button></th>
+            </tr>
+            
+            <tr>
+                <th><Button type="button" value="1"  onclick="return display(this.value)">1</Button></th>
+                <th><Button type="button" value="2"  onclick="return display(this.value)">2</Button></th>
+                <th><Button type="button" value="3"  onclick="return display(this.value)">3</Button></th>
+                <th><Button type="button" value="+"  onclick="return display(this.value)">+</Button></th>
+            </tr>
+            
+            <tr>
+                <th><Button>+/-</Button></th>
+                <th><Button>0</Button></th>
+                <th><Button>.</Button></th>
+                <th><Button style="background-color: rgb(84, 121, 242); color: white;" onclick="return finalresult(this.value)">=</Button></th>
+            </tr>
+
+        </table>
+    </div>
+ </body>
+ </html>
